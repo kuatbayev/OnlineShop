@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <%- include('partials/head.ejs')%>
+    <title>Document</title>
+</head>
+<body>
+    <%- include('partials/header.ejs')%>
+    <div class="container">
+        <div class="header-link-item">
+            <a href="">HOME</a> > <a href="">edit products</a>
+        </div>
+        <div class="main">
+            <div class="main-content">
+                <form action="" class="form">
+                    <h4>Редактирование товара</h4>
+                    <fieldset class="fieldset">
+                        <input type="text" placeholder="Название продукта" name="name-product">
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <input type="number" placeholder="Цена" name="price">
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <input type="number" placeholder="Скидка" name="skidka-product">
+                    </fieldset>
+                    <fieldset class="fieldset">
+                        <input type="text" placeholder="URL картинки" name="url-image">
+                    </fieldset>
+                     <fieldset class="fieldset">
+                        <button type="submit">Сохранить изменения</button>
+                    </fieldset>
+                </form>
+                
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

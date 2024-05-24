@@ -1,0 +1,10 @@
+.header-link-item{
+    background-color: #F5F5F5;
+    min-height: 5%;
+    padding: 20px 0 0 5%;
+    color: #898A8C;
+}
+.header-link-item a{
+    text-decoration: none;
+    color: #898A8C;
+}

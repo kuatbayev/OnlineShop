@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Roboto-bold; /* Имя шрифта */
+    src: url('/fonts/Roboto-Bold.ttf'); /* Путь к файлу со шрифтом */
+   }
+header{
+    background-color: #F5F5F5;
+    padding: 20px 3% 0 3% ;
+}
+.header-main{
+    padding: 20px 5%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.header-center img{
+    width: 15px;
+}
+.header-center{
+    display: flex;
+}
+.header-left-side a{
+    color: #00A2DC;
+    text-decoration: none;
+    font-family: Roboto-bold;
+}
+.header-center{
+    padding-left: 5%;
+}
+.header-center input{
+    padding:10px;
+    outline: none;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #F5F5F5;
+}
+.header-center button{
+    padding: 10px;
+    border: none;
+    background-color: #F5F5F5;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}

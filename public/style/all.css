@@ -1,0 +1,13 @@
+@import url('vendor/reset.css');
+@import url('components/header.css');
+@import url('vendor/same.css');
+@import url('pages/index.css');
+@import url('components/form.css');
+@import url('pages/myblog.css');
+@import url('components/headerblog.css');
+@import url('pages/newblog.css');
+@import url('components/forms-new.css');
+@import url('pages/add.css');
+@import url('components/form.css');
+@import url('pages/chair.css');
+@import url('pages/404.css');

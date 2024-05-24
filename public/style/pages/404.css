@@ -1,0 +1,12 @@
+.failed h1{
+    color: #FE6769;
+    font-size: 72px;
+    text-align: center;
+}
+.failed a{
+    text-align: center;
+}
+.failed{
+    display: flex;
+    flex-direction: column;
+}
